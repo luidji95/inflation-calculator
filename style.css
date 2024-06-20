@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(img/cash.jpg);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+.headline{
+  padding: 30px;
+  font-size: 30px;
+  display: flex; 
+}
+.content{
+ 
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  font-size: 25px;
+  padding-top: 50px; 
+}
+.contentinside{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.btnIzracunaj{
+  background-color: orange;
+  border-style: none;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  
+}
+.numberInput{
+  width: 80px;
+  text-align: center;
+} 
+.finalresult{
+  padding-right: 20px;
+}
+
